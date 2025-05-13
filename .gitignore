@@ -116,7 +116,6 @@ ipython_config.py
 # API Keys and Secrets
 keys.json
 larger-set.ipynb
-smaller-set.ipynb
 #   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
 .pdm.toml
 .pdm-python
