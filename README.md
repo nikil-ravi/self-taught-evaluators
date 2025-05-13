@@ -33,7 +33,7 @@ Running the following command will train the (self-taught) evaluator (see [self_
 python self_taught_evaluator.py --data_path path/to/raw/dataset --output_dir path/to/output/directory
 ```
 
-NOTE: Together AI's models, especially after finetuning, do not support serverless inference. However, it is possible to deploy them to a dedicated endpoint in order to use them for inference. 
+**NOTE:** Together AI's models, especially after finetuning, do not support serverless inference. However, it is possible to deploy them to a dedicated endpoint in order to use them for inference. 
 Due to the fact that this requires some manual intervention (changing deployed model name in the code, etc), I made it more convenient to run scripts by calling these functions from a Jupyter notebook.
 
 These can be found in [smaller-set.ipynb](smaller-set.ipynb) and [larger-set.ipynb](larger-set.ipynb). The differences are described in the results section.
